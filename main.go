@@ -8,6 +8,10 @@ import (
 	"github.com/hapoon/sakura/handler"
 )
 
+const (
+	version = "0.1.0"
+)
+
 func main() {
 	mux := http.NewServeMux()
 
